@@ -47,12 +47,20 @@ p {
 
 .kolomLinks {
   float:left;
-  width:250px;
-  padding-right:15px;           /* afstand tussen plaatje en rechterkolom */
+  margin-right:15px;           /* afstand tussen plaatje en rechterkolom */
 }
 .kolomRechts {
-  float:left;
-  width: 450px;
+  float:right;
+ margin-left:15px;           /* afstand tussen plaatje en rechterkolom */
+}
+.plaatje {
+   width:250px;
+  border-style:groove;
+  border-width:10px;
+  border-color: #f09d28;
+}
+.tekst {
+    width: 420px;
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
@@ -61,7 +69,8 @@ p {
 /* Opmaak voor alle pagina's */
 
 h1, h2, h3 {
-      color: skyblue;
+      color: #f09d28;
+  font-family:monospace;
 }
 
 .smalltext {
@@ -94,10 +103,11 @@ nav ul li {
 
 nav li a {
     display: block;
-    color: white;
+    color: #f09d28;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-family:monospace;
 }
 
 nav li a:hover {
@@ -107,3 +117,4 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
+
