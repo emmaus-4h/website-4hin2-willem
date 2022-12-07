@@ -48,17 +48,20 @@ p {
 .kolomLinks {
   float:left;
   margin-right:15px;           /* afstand tussen plaatje en rechterkolom */
+   color:#bdbd00;
 }
 .kolomRechts {
   float:right;
- margin-left:15px;           /* afstand tussen plaatje en rechterkolom */
+ margin-left:15px; /* afstand tussen plaatje en rechterkolom */
+  color:#bdbd00;
 }
-.plaatje {
-   width:250px;
+plaatje {
   border-style:groove;
   border-width:10px;
   border-color: #f09d28;
+  width:50px;
 }
+  
 .tekst {
     width: 420px;
 }
@@ -117,4 +120,22 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
-
+.Allefotos {
+  border-style:groove;
+  border-color:#f09d28;
+  border-width:10px;
+}
+#RafaNadal {
+  margin-left: 15px;
+  float:right;
+  margin-top:15px;
+}
+#SerinaWilliams {
+ width:100%;
+}
+#Beginfoto{
+  width:250px;
+}
+#kinderfotos{
+  width:250px;
+}
