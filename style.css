@@ -48,12 +48,10 @@ p {
 .kolomLinks {
   float:left;
   margin-right:15px;           /* afstand tussen plaatje en rechterkolom */
-   color:#bdbd00;
 }
 .kolomRechts {
   float:right;
  margin-left:15px; /* afstand tussen plaatje en rechterkolom */
-  color:#bdbd00;
 }
 plaatje {
   border-style:groove;
@@ -64,6 +62,7 @@ plaatje {
   
 .tekst {
     width: 420px;
+  font-family:'Times New Roman', Times, serif, ;
 }
 .kolomStop {
   clear:both;                   /* stop met floaten */
@@ -88,6 +87,12 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+/* Opmaak voor pagina grote toernooien */
+.kolom-half {
+  width:40%;
+  float:left;
 }
 
 
@@ -125,6 +130,7 @@ nav li a.active {
   border-color:#f09d28;
   border-width:10px;
 }
+
 #RafaNadal {
   margin-left: 15px;
   float:right;
