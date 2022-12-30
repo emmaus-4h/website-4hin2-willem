@@ -60,10 +60,7 @@ plaatje {
   width:50px;
 }
   
-.tekst {
-    width: 420px;
-  font-family:'Times New Roman', Times, serif, ;
-}
+
 .kolomStop {
   clear:both;                   /* stop met floaten */
 }
@@ -74,7 +71,10 @@ h1, h2, h3 {
       color: #f09d28;
   font-family:monospace;
 }
-
+.tekst {
+    width: 420px;
+  font-family:'Times New Roman', Times, serif, ;
+}
 .smalltext {
     text-align: center;
     font-size: 0.7em;
@@ -89,7 +89,7 @@ a:hover {
     text-decoration: underline;
 }
 
-/* Opmaak voor pagina grote toernooien */
+/* Opmaak voor bijpagina's toernooien */
 .kolom-half {
   width:40%;
   float:left;
@@ -101,7 +101,7 @@ nav ul {
     list-style-type: none;
     margin: auto;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #403dff;
     overflow: hidden;
 }
 
@@ -125,6 +125,11 @@ nav li a:hover {
 nav li a.active {
     background-color: skyblue;
 }
+.tekstboven {
+  width:100%;
+}
+
+
 .rechtskolom {
   float:right;
   width:330px;
@@ -151,10 +156,4 @@ nav li a.active {
   float:right;
   margin-top:15px;
 }
- 
-#Beginfoto{
-  width:250px;
-}
-#kinderfotos{
-  width:250px;
-}
+
