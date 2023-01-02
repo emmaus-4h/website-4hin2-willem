@@ -157,3 +157,25 @@ nav li a.active {
   margin-top:15px;
 }
 
+.rij2L {
+  width:48%;
+  float:left;
+  margin-right: 2px;
+}
+.rij2R {
+  width: 48%;
+  float:right;
+  margin-left: 2px;
+}
+.rij2{
+  width: 100%;
+  margin-top: 10px;
+}
+
+.rij3{
+  width: 100%;
+}
+.rij4 {
+  width:100%;
+  margin-top: 5px;
+}
