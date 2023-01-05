@@ -129,7 +129,6 @@ nav li a.active {
   width:100%;
 }
 
-
 .rechtskolom {
   float:right;
   width:330px;
@@ -139,6 +138,14 @@ nav li a.active {
 .linksrij {
   float:top-left;
   width:calc(100%-330px)
+}
+.fotoonderR{
+  width:48%;
+  float:right;
+}
+.fotoonderL{
+  width:48%;
+  float:left;
 }
 .tekstonder{
   width:100%;
