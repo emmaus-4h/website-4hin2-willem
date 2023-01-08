@@ -147,15 +147,6 @@ nav li a.active {
   float:right;     /*positie foto's*/
   margin-left: 2px;   /*ruimte tussen foto's links en rechts*/ 
 }
-.rij2{         
-  width: 100%;
-  margin-top: 10px;
-}
 
-.rij3{
-  width: 100%;
-}
-.rij4 {
-  width:100%;
-  margin-top: 5px;
-}
+
+
