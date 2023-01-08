@@ -36,6 +36,8 @@ main {
 h1, h2, h3 {                      /* geldt voor h1 en h2 en h3 */
   margin: 10px 0px;
   text-align: center;             /* tekst centreren */
+     color: #f09d28;            /*kleur titels*/
+  font-family:monospace;          /*lettertype titels*/
 } 
 
 p {
@@ -43,22 +45,6 @@ p {
   text-align: justify;            /* tekst links en rechts uitvullen */
 }
 
-/* Indeling voor hoofd pagina */
-
-.kolomLinks {
-  float:left;
-  margin-right:15px;           /* afstand tussen plaatje en rechterkolom */
-}
-.kolomRechts {
-  float:right;
- margin-left:15px; /* afstand tussen plaatje en rechterkolom */
-}
-plaatje {
-  border-style:groove;
-  border-width:10px;
-  border-color: #f09d28;
-  width:50px;
-}
   
 
 .kolomStop {
@@ -67,32 +53,19 @@ plaatje {
 
 /* Opmaak voor alle pagina's */
 
-h1, h2, h3 {
-      color: #f09d28;
-  font-family:monospace;
-}
-.tekst {
-    width: 420px;
-  font-family:'Times New Roman', Times, serif, ;
-}
+
 .smalltext {
-    text-align: center;
-    font-size: 0.7em;
-}
+    text-align: center;        /* plaats ondertekst*/
+    font-size: 0.7em;           /*grote ondertekst*/
+}  
 
 a {
-    color: skyblue;
+    color: skyblue;          /*kleur huidge pagina in bovenbalk*/
     text-decoration: none;
 }
 
-a:hover {
+ a:hover {
     text-decoration: underline;
-}
-
-/* Opmaak voor bijpagina's toernooien */
-.kolom-half {
-  width:40%;
-  float:left;
 }
 
 
@@ -106,10 +79,10 @@ nav ul {
 }
 
 nav ul li {
-    float: left;
+    float: left;         /*plaats navigatiebalk*/
 }
 
-nav li a {
+nav li a {                 /*tekst navigatiebalk*/
     display: block;
     color: #f09d28;
     text-align:center;
@@ -119,62 +92,62 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #aaaaaa;
+    background-color: #aaaaaa;    /*kleur navigatiebalk bij hoveren*/
 }
 
 nav li a.active {
     background-color: skyblue;
 }
-.tekstboven {
-  width:100%;
+.tekstboven {        
+  width:100%;            /*breedte tekst boven (hoofdpagina)*/
 }
 
-.rechtskolom {
-  float:right;
-  width:330px;
-  margin-top:26px;
-  margin-left:6px;
+.rechtskolom{          /*div van de foto rechtsboven (bijpagina's)*/
+  float:right;          /*positie*border*/
+  width:330px;          /*grote van div*/
+  margin-top:30px;       /*ruimte aan de bovenkant*/
+  margin-left:8px;        /*ruimte links*/
 }
-.linksrij {
-  float:top-left;
-  width:calc(100%-330px)
+.linksrij {                   /*div van tekst linksboven(bijpagina's)*/
+  float:top-left;             /*positie*/
+  width:calc(100%-330px)      /*breedte*/
 }
-.fotoonderR{
-  width:48%;
-  float:right;
+.fotoonderR{          /*div van foto rechtsonder (bijpagina's)*/
+  width:48%;          /*breedte div*/
+  float:right;        /*positie*/
 }
-.fotoonderL{
-  width:48%;
-  float:left;
+.fotoonderL{          /*div van foto linkssonder (bijpagina's)*/
+  width:48%;          /*breedte div*/
+  float:left;           /*positie*/
 }
-.tekstonder{
-  width:100%;
-}
-
-.Allefotos{
-  border-style:groove;
-  border-color:#f09d28;
-  border-width:10px;
-  width:100%;
+.tekstonder{          /*div van tekst 2 (bijpagina's)*/
+  width:100%;          /*breedte*/
 }
 
-.Fotorechts {
-  margin-left: 15px;
-  float:right;
-  margin-top:15px;
+.Allefotos{            /*class voor opmaak alle foto's*/
+  border-style:groove;        /*soort border*/
+  border-color:#f09d28;      /*border kleur*/
+  border-width:10px;          /*border breedte*/
+  width:100%;                  /*breedte foto's in div*/
 }
 
-.rij2L {
-  width:48%;
-  float:left;
-  margin-right: 2px;
+.Fotorechts {          /*class voor foto's rechtsboven (bijpagina's)*/
+  margin-left: 15px;     /*ruimte links*/
+  float:right;            /*positie*/
+  margin-top:15px;        /*ruimte boven*/
 }
-.rij2R {
-  width: 48%;
-  float:right;
-  margin-left: 2px;
+
+.rij2L {         /*class voor foto's linksonder (bijpagina's)*/
+  width:48%;      /*breedte foto's*/
+  float:left;     /*positie foto's*/
+  margin-right: 2px;  /*ruimte tussen foto's links en rechts*/ 
 }
-.rij2{
+.rij2R {        /*class voor foto's rechtsonder (bijpagina's)*/
+  width: 48%;    /*breedte foto's*/
+  float:right;     /*positie foto's*/
+  margin-left: 2px;   /*ruimte tussen foto's links en rechts*/ 
+}
+.rij2{         
   width: 100%;
   margin-top: 10px;
 }
